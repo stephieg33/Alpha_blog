@@ -1,4 +1,16 @@
-<h1>This is the Home Page</h1>
-
+<div class="container" id="home-container">
+ <div class="jumbotron text-center text-white">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+      <button class="btn btn-success btn-lg" type="button">Sign Up!</button>
+    </div>
+  </div>
+</div>
 <%= link_to 'View articles', articles_path %>
 <%= link_to 'About page', about_path %>
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted"><%= link_to "Fitness By Instruction", "https://www.fitnessbyinstruction.com" %></span>
+  </div>
+</footer>
